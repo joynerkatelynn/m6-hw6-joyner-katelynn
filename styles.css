@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-image: url(y-so-serious-white.png);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+header{
+    background-color: #FAF9F6;
+    border-bottom: 2px solid darkblue;
+}
+
+.topbar{
+    display: flex;
+    align-items: stretch;
+    padding-top: 10px;
+}
+
+.topbar > h1{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.topbar > nav{
+    flex-grow: 8;
+    text-align: right;
+}
+
+h1{
+    color: darkblue;
+    width: fit-content;
+    text-align: center;
+    font-family: 'Tahoma', sans-serif;
+}
+
+nav{
+    font-family: 'Tahoma', sans-serif;
+}
+
+.link{
+    margin: 0 4px;
+}
+
+a:link, a:hover, a:visited, a:active{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.mainwork{
+    display: flex;
+    align-items: stretch;
+    padding: 25px 0;
+}
+
+.mainwork > main{
+    max-width: 50%;
+    flex-grow: 8;
+    margin: 20px;
+    padding: 5px 5px;
+    background-color: #FAF9F6;
+}
+
+.mainwork > aside {
+    max-width: fit-content;
+    height: fit-content;
+    flex-grow: 1;
+    margin: 20px;
+    background-color: #FAF9F6;
+    padding: 5px 5px;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Tahoma', sans-serif;
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+}
+
+.me{
+    float: left;
+    margin-right: 3px;
+}
+
+p{
+    font-family: 'Tahoma', sans-serif;
+    color: navy;
+}
+
+.logo{
+    max-width: 15%;
+}
+
+footer{
+    background-color: darkblue;
+    color: #FAF9F6;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    margin-top: auto;
+}
